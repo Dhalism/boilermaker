@@ -44,10 +44,15 @@
     "axios": "^0.19.0",
     "compression": "^1.7.3",
     "connect-session-sequelize": "^6.0.0",
+    "decode-google-map-polyline": "^1.0.1",
     "express": "^4.16.4",
     "express-session": "^1.15.1",
+    "garmin-strava-automator": "^0.1.5",
+    "gatsby-source-strava": "^1.4.1",
     "history": "^4.9.0",
+    "leaflet": "^1.5.1",
     "morgan": "^1.9.1",
+    "package": "^1.0.1",
     "passport": "^0.4.0",
     "passport-google-oauth": "^2.0.0",
     "pg": "^7.9.0",
@@ -55,6 +60,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-leaflet": "^2.5.0",
     "react-redux": "^7.0.1",
     "react-router-dom": "^5.0.0",
     "redux": "^4.0.1",
@@ -64,7 +70,8 @@
     "request-promise": "^4.2.5",
     "sequelize": "^5.3.1",
     "socket.io": "^2.2.0",
-    "strava-v3": "^2.0.1"
+    "strava-v3": "^2.0.1",
+    "unicorn-tears": "0.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
@@ -95,7 +102,7 @@
     "husky": "^1.3.1",
     "lint-staged": "^8.1.5",
     "mocha": "^6.1.4",
-    "nodemon": "^1.18.3",
+    "nodemon": "^1.19.4",
     "npm-merge-driver": "^2.3.5",
     "prettier": "1.11.1",
     "react-test-renderer": "^16.4.2",
@@ -103,8 +110,16 @@
     "redux-mock-store": "^1.5.3",
     "simple-git": "^1.121.0",
     "supertest": "^4.0.2",
-    "webpack": "^4.16.4",
+    "webpack": "^4.41.2",
     "webpack-cli": "^3.1.0",
     "yaml": "^1.6.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dhalism/boilermaker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dhalism/boilermaker/issues"
+  },
+  "homepage": "https://github.com/Dhalism/boilermaker#readme"
 }
